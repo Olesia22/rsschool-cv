@@ -59,3 +59,6 @@ __Language__
 - English - Intermediate
 - Russian - Native
 
+![Level English](<./jpg/screen.jpg>)
+
+> My goal at the moment is to level up my English
