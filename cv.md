@@ -5,7 +5,7 @@
 __Contact information:__  
 
  __e-mail:__ olesia-mkf@yandex.ru  
- 
+
  __phone:__ +375 44 568 99 97
 
  __telegram:__ @blackmalina
@@ -25,3 +25,36 @@ My strengths are:
 - tolerance;
 - able to see the positive, learn from failures and follow on.
 ***
+Skills and Proficiency:__
+- HTML5, CSS3
+- JS Basics
+- Git, GitHab
+- VS Code
+- Figma, Illustrator
+***
+__Code example__
+JavaScript
+```
+for (let i = 0; i < 2; i++) {
+    const a = prompt('Один из последних просмотренных фильмов?', ''),
+          b = prompt('На сколько оцените его?', '');
+      personalMovieDB.movies[a] = b;
+      
+    if (a !=null && b !=null && a != '' && b !='' && a.length < 50) {
+        personalMovieDB.movies[a] = b;
+        console.log ('Done');
+    }  else {
+        console.log('error');
+        i--;
+    }
+}
+```
+***
+__Courses__
+- HTML Academy cours HTML/CSS
+- RS Schools Course «JavaScript/Front-end» (in progress)
+- ITMO University, web programming course
+***
+__Language__ 
+- English - Intermediate
+- Russian - Native
