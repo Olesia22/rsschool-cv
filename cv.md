@@ -1,4 +1,5 @@
 # __Olesya Beinya__
+<img src="./jpg/my face.jpg" width="200" height="200" />
 
 #### _Junior Frontend Developer_
 ---
@@ -59,6 +60,6 @@ __Language__
 - English - Intermediate
 - Russian - Native
 
-![Level English](<./jpg/screen.jpg>)
+<img src="./jpg/screen.jpg" width="400" height="250" />
 
 > My goal at the moment is to level up my English
