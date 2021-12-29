@@ -65,11 +65,14 @@ for (let i = 0; i < 2; i++) {
 
 ----
 
-__Courses__
+__Aducation and Courses__
 
+* **International University "MITSO"**
+  * Jurisprudence, Lawyer
 * HTML Academy cours HTML/CSS
 * RS Schools Course «JavaScript/Front-end» (in progress)
 * ITMO University, web programming course
+* Udemy  «JavaScript + React» (in progress)
 
 
 ----
