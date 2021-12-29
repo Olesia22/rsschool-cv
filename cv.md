@@ -10,6 +10,7 @@ __Contact information:__
  __phone:__ +375 44 568 99 97
 
  __telegram:__ @blackmalina
+ 
 ***
 __About myself:__
 
@@ -25,6 +26,7 @@ My strengths are:
 - responsibility;
 - tolerance;
 - able to see the positive, learn from failures and follow on.
+
 ***
 Skills and Proficiency:__
 - HTML5, CSS3
@@ -32,6 +34,7 @@ Skills and Proficiency:__
 - Git, GitHab
 - VS Code
 - Figma, Illustrator
+
 ***
 __Code example__
 JavaScript
