@@ -1,3 +1,9 @@
 .profile {
     color: gray;
 }
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
