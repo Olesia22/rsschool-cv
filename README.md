@@ -1,1 +1,2 @@
-https://github.com/Olesia22/rsschool-cv.git
+https://Olesia22.github.io/rsschool-cv/cv
+https://Olesia22.github.io/rsschool-cv/
