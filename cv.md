@@ -2,6 +2,7 @@
 <img src="./jpg/my face.jpg" width="200" height="200" />
 
 #### _Junior Frontend Developer_
+
 ----
 __Contact information:__ 
 
@@ -21,6 +22,7 @@ My acquaintance with programming happened about 2 years ago. I was wondering how
 My goal is to study a new, interesting profession that gives unlimited opportunities for development and become a good Frontend Developer in the near future. And I believe that I will succeed.
 
 My goal is to become a frontend developer. And this means having fun at work and, due to the global changes in everyday life due to the pandemic, the opportunity to work remotely.
+
 
 My strengths are:
 
@@ -46,6 +48,7 @@ __Skills and Proficiency:__
 __Code example__
 
 JavaScript
+
 
 ```
 for (let i = 0; i < 2; i++) {
@@ -85,3 +88,4 @@ __Language__
 <img src="./jpg/screen.jpg" width="400" height="250" />
 
 > My goal at the moment is to level up my English
+
