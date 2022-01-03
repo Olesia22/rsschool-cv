@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
@@ -9,7 +9,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth; 
+  }
 
 .container {
     position: relative;
@@ -39,6 +44,17 @@ body {
     z-index: 3;
   }
 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}  
+
+.nav-list li {
+    list-style: none;
+    margin: 0px 0px 0px 30px;
+}
+
 .container .left-side {
     
     position: relative;
@@ -46,16 +62,13 @@ body {
     padding: 40px;
 }
 
-.container .right-side {
+.profile {
     position: relative;
-    background: #fff;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
 }
-
-/* .profile {
-    color: rgb(5, 5, 5);
-   
-} */
 
 .profile img {
     width: 300px;
@@ -64,28 +77,141 @@ body {
     overflow: hidden;
 }
 
+.profile h1 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile h1 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contacts {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.title 
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.contacts ul {
+    position: relative;
+}
+
+.contacts ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.skills {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.courses {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container .right-side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about_myself {
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(97, 18, 18, 0.2);
+}
+
+.about_myself:last-child {
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color:#592728;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+p {
+    color: #333;
+}
+
+.about_myself ul {
+    position: relative;
+}
+
+.about_myself ul li {
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.education {
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(97, 18, 18, 0.2);
+}
+
+.code {
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(97, 18, 18, 0.2);
+}
 .languages img {
     width: 500px;
     height: 300;
 }
 
-.footer {
-    padding: 40px 0;
-    background:
+.footer 
+{
+    background: #CBB8AF;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    
+  }
 
-.footer-content {
+.foter-content
+{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-
-.social {
+.social
+{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-
 .social li
 {
     margin: 0;
@@ -101,16 +227,12 @@ body {
     transition: color .4s ease;
     letter-spacing: 2em;
 }
-.social a:hover i
-{
+.social a:hover i {
     color: #333;
 }
 
-.footer-bottom
-{
-    width: 100vw;
-    padding: 20px 0;
-    /* text-align: center; */
+.footer-bottom {
+    text-align: center;
 }
 .footer-bottom p
 {
@@ -118,3 +240,4 @@ body {
     word-spacing: 2px;
     text-transform: capitalize;
 }
+

@@ -14,11 +14,11 @@
         <header class="header-container">
             <div class="header">
                 <nav id="menu">
-                <ul>
+                <ul class="nav-list">
                   <li><a href="#contacts">Contacts</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#skills">Skills</a></li>
-                  <li><a href="#code-example">CODE</a></li>
+                  <li><a href="#code-example">Code</a></li>
                   <li><a href="#experience">Courses</a></li>
                   <li><a href="#education">Education</a></li>
                   <li><a href="#english">English</a></li>
@@ -28,24 +28,24 @@
           </header>
         <div class="container">        
             <section class="left-side">
-                <section class="profile ">
+                <section class="profile">
                     <img src="/jpg/img.jpg" alt="Avatar">
-                    <h1>Olesya Beinia<br><span>Junior Front-end Developer</span></h1>
+                    <h1>Olesya Beinya<br><span>Junior Front-end Developer</span></h1>
                 </section>
             <!-- block profile -->
 
             <section class="contacts" id="contacts">
-                <h2>Contact information:</h2>
+                <h2 class="title">Contact information:</h2>
                 <ul>
-                    <p> e-mail: olesia-mkf@yandex.ru </p>
-                    <p> phone: +375 44 568 99 97</p>
-                    <p> telegram: @blackmalina</p>
+                    <li> e-mail: olesia-mkf@yandex.ru </li>
+                    <li> phone: +375 44 568 99 97</li>
+                    <li> telegram: @blackmalina</li>
                 </ul>
             </section>
             <!-- block contacts -->
 
             <section class="skills" id="skills">
-                <h2>Skills and Proficiency:</h2>
+                <h2 class="title">Skills and Proficiency:</h2>
                 <ul>
                     <li>HTML5, CSS3</li>
                     <li>JS Basics</li>
@@ -57,7 +57,7 @@
             <!-- block skills -->
 
             <section class="courses" id="courses">
-                <h2>Courses</h2>
+                <h2 class="title">Courses</h2>
                 <ul>
                     <li>HTML Academy cours HTML/CSS</li>
                     <li>ITMO University, web programming course</li>
@@ -71,7 +71,7 @@
 
             <section class="right-side">
                 <section class="about_myself" id="about">
-                    <h2>About myself:</h2>
+                    <h2 class="title2">About myself:</h2>
                     <p>
                         My acquaintance with programming happened about 2 years ago. I was wondering how websites are created. In my free time from my main job, I graduated from web design courses, also watched some lessons on youtube. While developing website design, I became interested in how my projects are translated into code. So I found a layout course and continued the process of self-education. I really like writing code, because I can immediately see the result of my work. I am very glad that by trial and error, I finally found exactly what I like to do and get incredible pleasure from it.
                     </p>
@@ -93,8 +93,17 @@
                 </section>
                 <!-- block myself -->
 
+                <section class="education" id="education">
+                    <h2 class="title2">Aducation</h2>
+                    <ul>
+                        <li> <b>International University "MITSO"</b>
+                            <ol>Jurisprudence, Lawyer</ol>
+                        </li>
+                    </ul>
+                </section>
+
                 <section class="code" id="code-example">
-                    <h2>Code example</h2>
+                    <h2 class="title2">Code example</h2>
                     <p>JavaScript</p>
                     <pre>
                         <code>
@@ -118,7 +127,7 @@
 
                 
                 <section class="languages" id="languages">
-                    <h2>Language</h2>
+                    <h2 class="title2">Language</h2>
                     <ul>
                         <li>English - Intermediate</li>
                         <li>Russian - Native</li>
@@ -128,14 +137,30 @@
                 </section>
                 <!-- block languages -->
 
-            </section>           
-              
-
+            </section>                    
         </div>
 
-        
+        <footer>
+            <div class="footer-content">
+                <ul class="social">
+                    <li><a href="https://Olesia22.github.io/rsschool-cv/cv"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://vk.com/black__malina"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                    <li>
+                        <a href="https://rs.school/js/">
+                        <picture><source srcset="https://rs.school/images/rs_school_js.svg" type="image/webp"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" width="100"></picture>
+                        </a>
+                   </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Olesya Beinia &copy; 2021</p>
+            </div>
+            
+        </footer> 
+      
             
     </main>
+
 
 </body>
 </html>
